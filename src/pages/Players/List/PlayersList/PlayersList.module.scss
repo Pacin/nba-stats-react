@@ -1,0 +1,39 @@
+.players-list {
+  max-width: 90%;
+  margin: 2rem auto 0;
+  &__table {
+    height: 73vh;
+  }
+}
+
+.select {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  select {
+    max-width: 5rem;
+  }
+  span {
+    margin-right: 0.5rem;
+    font-size: 1.125rem;
+  }
+}
+
+.top-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  input {
+    font-size: 1.125rem;
+  }
+}
+
+.pagination {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
